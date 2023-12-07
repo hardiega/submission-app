@@ -36,7 +36,7 @@ def create_users(df):
     return df_bike_user
    
 #import data
-df_bike=pd.read_csv("data_all.csv")
+df_bike=pd.read_csv("https://github.com/hardiega/submission-app/blob/main/data_all.csv")
 
 df_bike_hourly = create_hourly(df_bike)
 df_bike_dailly = create_dailly(df_bike)
